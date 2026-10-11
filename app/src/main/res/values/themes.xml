@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.MarbleMaze" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
+</resources>
