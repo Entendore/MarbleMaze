@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Marble Maze</string>
+    <string name="tagline">Tilt your phone to roll the marbles home</string>
+    <string name="stats_fmt">Played %1$d • ★ %2$d • Coins %3$d • Rolled %4$d m</string>
+    <string name="marbles_label">Number of marbles</string>
+    <string name="marble_count_fmt">%1$d marbles</string>
+    <string name="maze_size_label">Maze size</string>
+    <string name="easy">Easy</string><string name="medium">Medium</string>
+    <string name="hard">Hard</string><string name="expert">Expert</string>
+    <string name="start_game">Play</string><string name="daily_challenge">Daily Challenge</string>
+    <string name="daily_short">DAILY</string><string name="daily_solved">Daily solved!</string>
+    <string name="daily_best_fmt">Today\u2019s best: %1$s</string>
+    <string name="custom_modes">Custom modes</string>
+    <string name="modes_hint">Tap to play • long-press for top 5 • ✎ edit • ⧉ duplicate • ⤴ share • ✕ delete</string>
+    <string name="new_mode">＋ New custom mode</string>
+    <string name="modes_empty">No custom modes yet.\nBuild your first one below!</string>
+    <string name="motw_badge">THIS WEEK</string>
+    <string name="mode_editor_title">Custom mode</string>
+    <string name="mode_name_hint">Mode name</string><string name="default_mode_name">My run</string>
+    <string name="gen_label">Maze generation</string>
+    <string name="gen_classic">Classic labyrinth</string><string name="gen_caves">Caves — rooms &amp; corridors</string>
+    <string name="gen_spiral">Spiral rings</string><string name="gen_chambers">Big chambers</string>
+    <string name="gen_open">Open field (few walls)</string><string name="gen_rivers">Rivers (speed corridors)</string>
+    <string name="grid_size_fmt">Grid size: %1$d</string>
+    <string name="seed_label">Fixed seed (optional)</string>
+    <string name="seed_hint">Leave blank for a new maze each run</string>
+    <string name="features_label">Features</string>
+    <string name="opt_traps">Trap holes</string><string name="opt_pads">Boost pads</string>
+    <string name="opt_belts">Conveyor belts</string><string name="opt_winds">Wind gusts</string>
+    <string name="opt_movers">Patrol blocks</string><string name="opt_flappers">One-way doors</string>
+    <string name="opt_spinners">Spinners</string><string name="opt_portals">Portals</string>
+    <string name="opt_gates">Keys &amp; gates</string><string name="opt_crumble">Crumbling walls</string>
+    <string name="opt_terrain">Ice &amp; mud</string><string name="opt_coins">Coins</string>
+    <string name="opt_power">Power-ups (M/S/T)</string><string name="opt_bumpers">Pinball bumpers</string>
+    <string name="save_mode">Save mode</string><string name="cancel">Cancel</string>
+    <string name="mode_saved">Saved \u201C%1$s\u201D</string>
+    <string name="mode_deleted">Deleted \u201C%1$s\u201D</string>
+    <string name="delete_mode_title">Delete \u201C%1$s\u201D?</string>
+    <string name="delete_mode_msg">The mode and its best time will be removed.</string>
+    <string name="delete">Delete</string>
+    <string name="mode_solved">Mode cleared!</string>
+    <string name="mode_cleared">\u201C%1$s\u201D cleared!</string>
+    <string name="mode_best_fmt">Mode best: %1$s</string>
+    <string name="mode_board_title">\u201C%1$s\u201D — top 5</string>
+    <string name="mode_share_fmt">Custom mode \u201C%1$s\u201D — import this code in Marble Maze:</string>
+    <string name="mode_imported_title">\u201C%1$s\u201D added to your modes</string>
+    <string name="import_code">Import code / replay</string>
+    <string name="import_hint">MM8 mode • MM7 code • MMREPLAY2 replay</string>
+    <string name="play_code">Import</string>
+    <string name="invalid_code">That doesn\u2019t look like a valid code or replay</string>
+    <string name="replay_imported">Replay imported! Play level %1$d (%2$s, %3$d marbles) to race that ghost team.</string>
+    <string name="watch_replay">Watch replay</string><string name="race_ghost">Race their ghost</string>
+    <string name="spectate_tag">\u25B6 REPLAY</string><string name="spectate_title">Spectating replay</string>
+    <string name="replay_end">REPLAY END</string>
+    <string name="back">Back</string><string name="restart">Restart</string>
+    <string name="rewind">Rewind</string><string name="menu">Menu</string>
+    <string name="pause">Pause</string><string name="paused">Paused</string>
+    <string name="resume">Resume</string><string name="hold_flat">Hold phone flat!</string>
+    <string name="recalibrate">Recalibrate tilt</string><string name="restart_maze">Restart maze</string>
+    <string name="quit_to_menu">Quit to menu</string>
+    <string name="calibrated">Calibrated — hold the phone flat</string>
+    <string name="maze_solved">Maze solved!</string>
+    <string name="solved_line">Level %1$d solved!</string>
+    <string name="time_fmt">Time %1$s  (par %2$s)</string>
+    <string name="coins_fmt">Coins %1$d/%2$d</string>
+    <string name="solved_short">Solved!</string>
+    <string name="new_record">★ New record!</string>
+    <string name="best_time_fmt">Best: %1$s</string><string name="best_none">Best: —</string>
+    <string name="score_fmt">Score %1$d (best %2$d)</string>
+    <string name="score_new">Score %1$d — new best!</string>
+    <string name="board_rank_fmt">\uD83C\uDFC1 #%1$d all-time here</string>
+    <string name="board_title">Level %1$d — your top 5</string>
+    <string name="board_empty">No times yet.</string>
+    <string name="beat_team_fmt">\uD83C\uDFC6 You beat %1$s\u2019s team! (%2$s)</string>
+    <string name="zen_solved">Zen cleared</string>
+    <string name="zen_message">No timer, no hurry.\nCoins: %1$d/%2$d</string>
+    <string name="next_level">Next level</string><string name="replay">Play again</string>
+    <string name="back_to_menu">Back to menu</string><string name="share">Share</string>
+    <string name="share_text">Share as text</string><string name="share_qr">Share QR code</string>
+    <string name="export_replay">Export replay (race my ghost)</string>
+    <string name="no_replay">This run has no replay data</string>
+    <string name="qr_failed">Couldn\u2019t generate the QR code</string>
+    <string name="watch_my_win">\u25B6 Watch my win</string>
+    <string name="share_template">Marble Maze level %1$d %2$s — time %3$s, score %4$d, coins %5$d/%6$d. Can you beat me?</string>
+    <string name="code_fmt">Code: %1$s</string><string name="code_share_fmt">Challenge code: %1$s</string>
+    <string name="code_best_fmt">Code best: %1$s</string><string name="custom_solved">Challenge cleared!</string>
+    <string name="achievements">Achievements</string>
+    <string name="achievements_fmt">Achievements %1$d/%2$d</string>
+    <string name="theme_label">Board theme</string>
+    <string name="theme_classic">Classic</string><string name="theme_neon">Neon</string>
+    <string name="theme_mono">Mono</string><string name="theme_system">System</string>
+    <string name="control_label">Controls</string>
+    <string name="ctrl_tilt">Tilt</string><string name="ctrl_touch">Touch</string><string name="ctrl_both">Both</string>
+    <string name="fog_label">Fog of War</string><string name="zen_label">Zen mode (no timer)</string>
+    <string name="ghost_label">Show best-run ghost team</string>
+    <string name="hc_label">High contrast (accessibility)</string>
+    <string name="invert_y_label">Invert up/down (tilt)</string>
+    <string name="sensitivity_label">Tilt sensitivity</string>
+    <string name="sound_label">Sound</string><string name="vibration_label">Vibration</string>
+    <string name="choose_level_fmt">%1$s — choose a level</string>
+    <string name="progress_fmt">%1$s • %2$d/%3$d unlocked   ★ %4$d</string>
+    <string name="run_restored">Run restored</string>
+    <string name="boss_blade">THE BLADE</string><string name="boss_twins">THE TWINS</string>
+    <string name="boss_hurricane">THE HURRICANE</string><string name="boss_drain">THE DRAIN</string>
+    <string name="boss_volcano">THE VOLCANO</string><string name="boss_tide">THE TIDE</string>
+</resources>

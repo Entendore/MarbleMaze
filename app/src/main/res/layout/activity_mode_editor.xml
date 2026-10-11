@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/mode_editor_title" android:textColor="@color/accent"
+            android:textSize="24sp" android:textStyle="bold"/>
+        <EditText android:id="@+id/mode_name" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:hint="@string/mode_name_hint" android:inputType="textCapWords" android:maxLength="24"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:text="@string/gen_label" android:textColor="@color/text_primary"/>
+        <RadioGroup android:id="@+id/gen_group" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/gen_classic" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:checked="true" android:text="@string/gen_classic"/>
+            <RadioButton android:id="@+id/gen_caves" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gen_caves"/>
+            <RadioButton android:id="@+id/gen_spiral" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gen_spiral"/>
+            <RadioButton android:id="@+id/gen_chambers" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gen_chambers"/>
+            <RadioButton android:id="@+id/gen_open" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gen_open"/>
+            <RadioButton android:id="@+id/gen_rivers" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/gen_rivers"/>
+        </RadioGroup>
+        <TextView android:id="@+id/diff_label_value" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/text_primary"/>
+        <SeekBar android:id="@+id/diff_seek" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/mar_label_value" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_primary"/>
+        <SeekBar android:id="@+id/mar_seek" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:text="@string/seed_label" android:textColor="@color/text_primary"/>
+        <EditText android:id="@+id/mode_seed" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="@string/seed_hint"
+            android:inputType="number" android:maxLines="1"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:text="@string/features_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_traps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_traps" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_pads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_pads" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_belts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_belts" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_winds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_winds" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_movers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_movers" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_flappers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_flappers" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_spinners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_spinners" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_portals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_portals" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_gates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_gates" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_crumble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_crumble" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_terrain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_terrain" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_coins" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_power" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/opt_bumpers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/opt_bumpers" android:textColor="@color/text_primary"/>
+        <Button android:id="@+id/save_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/save_mode"/>
+        <Button android:id="@+id/cancel_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/cancel"/>
+    </LinearLayout>
+</ScrollView>

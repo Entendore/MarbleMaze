@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center_horizontal" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/app_name"
+            android:textColor="@color/accent" android:textSize="40sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:gravity="center" android:text="@string/tagline"
+            android:textColor="@color/text_secondary" android:textSize="15sp"/>
+        <TextView android:id="@+id/stats_text" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:textColor="@color/text_secondary" android:textSize="13sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="@string/theme_label"
+            android:textColor="@color/text_primary" android:textSize="16sp"/>
+        <RadioGroup android:id="@+id/theme_group" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/theme_classic" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:checked="true" android:text="@string/theme_classic"/>
+            <RadioButton android:id="@+id/theme_neon" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/theme_neon"/>
+            <RadioButton android:id="@+id/theme_mono" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/theme_mono"/>
+            <RadioButton android:id="@+id/theme_system" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/theme_system"/>
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:text="@string/marbles_label" android:textColor="@color/text_primary"/>
+        <TextView android:id="@+id/marble_label" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="22sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+        <SeekBar android:id="@+id/marble_seek" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:max="9" android:progress="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:text="@string/maze_size_label" android:textColor="@color/text_primary"/>
+        <RadioGroup android:id="@+id/difficulty_group" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_easy" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:checked="true" android:text="@string/easy"/>
+            <RadioButton android:id="@+id/radio_medium" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/medium"/>
+            <RadioButton android:id="@+id/radio_hard" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/hard"/>
+            <RadioButton android:id="@+id/radio_expert" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/expert"/>
+        </RadioGroup>
+        <TextView android:id="@+id/best_text" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="6dp"
+            android:textColor="@color/text_secondary" android:textSize="14sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:text="@string/control_label" android:textColor="@color/text_primary"/>
+        <RadioGroup android:id="@+id/control_group" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_tilt" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:checked="true" android:text="@string/ctrl_tilt"/>
+            <RadioButton android:id="@+id/radio_touch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/ctrl_touch"/>
+            <RadioButton android:id="@+id/radio_both" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="@string/ctrl_both"/>
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:text="@string/sensitivity_label" android:textColor="@color/text_primary"/>
+        <SeekBar android:id="@+id/sensitivity_seek" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:max="100"/>
+        <CheckBox android:id="@+id/sound_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/sound_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/haptics_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/vibration_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/ghost_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/ghost_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/fog_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/fog_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/zen_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/zen_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/hc_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/hc_label" android:textColor="@color/text_primary"/>
+        <CheckBox android:id="@+id/inverty_check" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/invert_y_label" android:textColor="@color/text_primary"/>
+        <Button android:id="@+id/start_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/start_game"/>
+        <Button android:id="@+id/daily_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/daily_challenge"/>
+        <Button android:id="@+id/custom_modes_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/custom_modes"/>
+        <Button android:id="@+id/achievements_button" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/achievements"/>
+    </LinearLayout>
+</ScrollView>
